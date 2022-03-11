@@ -10,7 +10,7 @@ public class MyThread extends Thread {
     private Paint paint;
     // "держатель" SurfaceView
     private SurfaceHolder surfaceHolder;
-    private boolean flag;
+    public boolean flag;
 
     MyThread(SurfaceHolder holder) {
         this.surfaceHolder = holder;
